@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: lightblue;
+    padding: 4%;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 2% 5px 0
+}
+
+main {
+    padding: 4%;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+footer{ 
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+    
